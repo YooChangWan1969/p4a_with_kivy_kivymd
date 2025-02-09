@@ -10,8 +10,8 @@ source.exclude_dirs = tests, bin, venv, __pycache__
 version = 0.1
 requirements = python3==3.11.0,hostpython3==3.11.0,kivy==2.1.0,kivymd==1.0.1,cython==0.29.33,sdl2_ttf,pillow,liblzma,pyjnius,pycryptodome
 # requirements = python3,hostpython3,kivy,kivymd,cython,sdl2_ttf,pillow,liblzma,pyjnius
-presplash.filename = %(source.dir)s/images/presplash.png
-icon.filename = %(source.dir)s/images/favicon.png
+# presplash.filename = %(source.dir)s/images/presplash.png
+# icon.filename = %(source.dir)s/images/favicon.png
 orientation = portrait
 osx.python_version = 3.11.0
 osx.kivy_version = 2.1.0
