@@ -1,10 +1,10 @@
 [app]
 
 # (str) Title of your application 
-title = FinancialCalculator
+title = sample
 
 # (str) Package name
-package.name = Financial_Calculator
+package.name = sample_App
 
 # (str) Package domain (needed for android/ios packaging) 
 package.domain = kr.co.fahub
@@ -29,7 +29,7 @@ source.exclude_dirs = tests, bin, venv, __pycache__
 #source.exclude_patterns = license,images/*/*.jpg
 
 # (str) Application versioning (method 1)
-version = 0.8.9
+version = 0.1
 
 # (str) Application versioning (method 2)
 # version.regex = __version__ = ['"](.*)['"]
