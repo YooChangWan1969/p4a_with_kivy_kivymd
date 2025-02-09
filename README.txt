@@ -4,4 +4,6 @@ I'm going to share that.
 Would you like to share your working configuration? 
 I'd be interested in learning about the specific settings that helped you resolve the build issues.
 
-By the way, it is work with ubuntu 22-04. So If you want to with unbuntu 24-04, first 22-04, and change to 24-04 in build_action.yml "runs-on: ubuntu-24.04"
+By the way, it is work with ubuntu 22-04. So If you want to with unbuntu 24-04, first 22-04, and change a number in build_action.yml "runs-on: ubuntu-24.04"
+
+Good Luck!!
