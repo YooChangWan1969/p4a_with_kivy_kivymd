@@ -8,7 +8,7 @@ source.include_patterns = assets/*,images/*.png
 source.exclude_exts = spec,txt
 source.exclude_dirs = tests, bin, venv, __pycache__
 version = 0.1
-requirements = python3==3.11.0,hostpython3==3.11.0,kivy==2.1.0,kivymd==1.0.1,cython==0.29.33,sdl2_ttf,pillow,liblzma,pyjnius
+requirements = python3==3.11.0,hostpython3==3.11.0,kivy==2.1.0,kivymd==1.0.1,cython==0.29.33,sdl2_ttf,pillow,liblzma,pyjnius==1.4.2
 # requirements = python3,hostpython3,kivy,kivymd,cython,sdl2_ttf,pillow,liblzma,pyjnius,pycryptodome
 # presplash.filename = %(source.dir)s/images/presplash.png
 # icon.filename = %(source.dir)s/images/favicon.png
@@ -29,7 +29,7 @@ android.ndk_path = ~/.buildozer/android/platform/android-ndk-r25b
 android.min_sdk_version = 21
 android.sdk_api = 33
 # android.gradle_dependencies = 'androidx.multidex:multidex:2.0.1'
-android.add_dependencies = true
+#android.add_dependencies = true
 android.private_storage = True
 android.cmake_args = -DANDROID_PLATFORM=21 -DCMAKE_ANDROID_API=21
 build.cmake_options = -DCMAKE_POSITION_INDEPENDENT_CODE=1 -DENABLE_SHARED=0 -DENABLE_STATIC=1
