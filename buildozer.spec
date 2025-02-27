@@ -22,7 +22,7 @@ android.enable_android_native_support = True
 # android.add_compile_options = -DANDROID_UNIFIED_HEADERS -fomit-frame-pointer
 # android.add_compile_options = -DANDROID_UNIFIED_HEADERS -fomit-frame-pointer -Wno-array-bounds
 # android.add_compile_options = -fomit-frame-pointer -Wno-array-bounds
-android.extra_compile_args = -Wno-array-bounds, -fPIC, -D__GNUC_PREREQ(major,minor)=0
+android.extra_compile_args = -Wno-array-bounds, -Wno-deprecated-declarations, -fPIC, -D__GNUC_PREREQ(major,minor)=0
 android.ndk_api = 21
 android.ndk = 25b
 android.ndk_path = ~/.buildozer/android/platform/android-ndk-r25b
