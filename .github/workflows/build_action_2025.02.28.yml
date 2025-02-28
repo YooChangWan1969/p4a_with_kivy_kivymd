@@ -10,7 +10,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     env:
       KIVY_GL_BACKEND: 'gl'
       CFLAGS: "-I$HOME/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include"
@@ -126,6 +126,7 @@ jobs:
       - name: Build with Buildozer
         run: |
           export PATH=$JAVA_HOME/bin:$PATH
+          export PIP_BREAK_SYSTEM_PACKAGES=1
           export PYTHONPATH="${PYTHONPATH}:${HOME}/.buildozer/android/platform/build-arm64-v8a/build/other_builds/python3-liblzma/arm64-v8a__ndk_target_21/python3/Include"
           export CFLAGS="-I${HOME}/.buildozer/android/platform/build-arm64-v8a/build/other_builds/python3-liblzma/arm64-v8a__ndk_target_21/python3/Include"
           export LDFLAGS="-L${HOME}/.buildozer/android/platform/build-arm64-v8a/build/other_builds/python3-liblzma/arm64-v8a__ndk_target_21/python3/android-build"
