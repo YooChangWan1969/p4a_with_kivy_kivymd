@@ -21,7 +21,7 @@ android.api = 33
 android.enable_android_native_support = True
 # android.add_compile_options = -DANDROID_UNIFIED_HEADERS -fomit-frame-pointer
 # android.add_compile_options = -DANDROID_UNIFIED_HEADERS -fomit-frame-pointer -Wno-array-bounds
-# android.add_compile_options = -fomit-frame-pointer -Wno-array-bounds
+android.add_compile_options = -fomit-frame-pointer -Wno-array-bounds -I/path/to/ndk/sysroot/usr/include
 android.extra_compile_args = -Wno-array-bounds, -Wno-deprecated-declarations, -fPIC, -D__GNUC_PREREQ(major,minor)=0
 android.cppflags = -DANDROID -I/home/runner/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include -I/home/runner/work/p4a_with_kivy_kivymd/p4a_with_kivy_kivymd/.buildozer/android/platform/build-arm64-v8a/build/python-installs/sampleApp/arm64-v8a/include/python3.11
 android.ndk_api = 21
