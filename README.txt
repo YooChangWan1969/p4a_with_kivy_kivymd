@@ -7,3 +7,7 @@ By the way, it is work with ubuntu 22-04.
 So If you want to with unbuntu 24-04, first of all, BUILD FIRST UBUNTU 22-04, and SECOND, CHANGE A NUMBER in build_action.yml "runs-on: ubuntu-24.04" like a build_action_second.yml
 
 Good Luck!!
+
+P.S.
+Buildozer is not available on Ubuntu 24.4 or later. 
+So Two step required
