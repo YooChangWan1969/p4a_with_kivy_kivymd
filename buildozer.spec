@@ -8,7 +8,7 @@ source.include_patterns = assets/*,images/*.png
 source.exclude_exts = spec,txt
 source.exclude_dirs = tests, bin, venv, __pycache__
 version = 0.1
-requirements = python3==3.11.0,hostpython3==3.11.0,kivy==2.1.0,kivymd==1.0.1,cython==0.29.33,sdl2_ttf,pillow,pyjnius==1.4.2,liblzma
+requirements = python3==3.11.0,hostpython3==3.11.0,kivy==2.1.0,kivymd==1.0.1,cython==0.29.33,sdl2_ttf,pillow,pyjnius==1.4.2
 # requirements = python3,hostpython3,kivy,kivymd,cython,sdl2_ttf,pillow,liblzma,pyjnius,pycryptodome
 # presplash.filename = %(source.dir)s/images/presplash.png
 # icon.filename = %(source.dir)s/images/favicon.png
@@ -17,7 +17,7 @@ osx.python_version = 3.11.0
 osx.kivy_version = 2.1.0
 fullscreen = 0
 android.permissions = android.permission.INTERNET, (name=android.permission.WRITE_EXTERNAL_STORAGE;maxSdkVersion=18)
-android.api = 33
+android.api = 34
 android.enable_android_native_support = True
 # android.add_compile_options = -DANDROID_UNIFIED_HEADERS -fomit-frame-pointer
 # android.add_compile_options = -DANDROID_UNIFIED_HEADERS -fomit-frame-pointer -Wno-array-bounds
