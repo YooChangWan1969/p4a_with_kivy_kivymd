@@ -34,7 +34,7 @@ android.sdk_api = 34
 # android.gradle_dependencies = 'androidx.multidex:multidex:2.0.1'
 #android.add_dependencies = true
 android.private_storage = True
-android.cmake_args = -DANDROID_PLATFORM=21 -DCMAKE_ANDROID_API=21
+android.cmake_args = -DANDROID_PLATFORM=21 -DCMAKE_ANDROID_API=21 -DCMAKE_POLICY_DEFAULT_CMP0057=NEW
 build.cmake_options = -DCMAKE_POSITION_INDEPENDENT_CODE=1 -DENABLE_SHARED=0 -DENABLE_STATIC=1
 android.enable_androidx = True
 android.enable_numpy = False
