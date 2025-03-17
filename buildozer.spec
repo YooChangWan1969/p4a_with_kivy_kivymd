@@ -46,6 +46,7 @@ android.archs = arm64-v8a
 android.allow_backup = True
 android.accept_sdk_license = True
 android.host_python_ver = 3.11.0
+android.build_tools_version = 33.0.2
 android.java_home = /usr/lib/jvm/temurin-17-jdk-amd64
 p4a.host_python = /opt/hostedtoolcache/Python/3.11.0/x64/bin/python3
 p4a.extra_args = --ignore-setup-py
