@@ -13,11 +13,10 @@ jobs:
     runs-on: ubuntu-24.04
     env:
       KIVY_GL_BACKEND: 'gl'
-      CFLAGS: "-I$HOME/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include -fomit-frame-pointer"
+      CFLAGS: "-I$HOME/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include"
       LDFLAGS: "-L$HOME/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib"
       PYTHONPATH: "$PYTHONPATH:$HOME/.buildozer/android/platform/android-sdk/tools/lib"
       JAVA_HOME: "/usr/lib/jvm/temurin-17-jdk-amd64"
-      PATH: "$JAVA_HOME/bin:$PATH"
 
     steps:
       - uses: actions/checkout@v4
