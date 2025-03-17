@@ -8,9 +8,8 @@ source.include_patterns = assets/*,images/*.png
 source.exclude_exts = spec,txt
 source.exclude_dirs = tests, bin, venv, __pycache__
 version = 0.1
-requirements = python3,hostpython3,kivy,kivymd,cython==0.29.36,sdl2_ttf,pillow,pyjnius
 # requirements = python3==3.11.0,hostpython3==3.11.0,kivy==2.1.0,kivymd==1.0.1,cython==0.29.36,sdl2_ttf,pillow,pyjnius==1.4.2
-# requirements = python3==3.11.0,hostpython3==3.11.0,kivy==2.1.0,kivymd==1.0.1,cython==0.29.33,sdl2_ttf,pillow,pyjnius==1.4.2
+requirements = python3==3.11.0,hostpython3==3.11.0,kivy==2.1.0,kivymd==1.0.1,cython==0.29.33,sdl2_ttf,pillow,pyjnius==1.4.2
 # requirements = python3,hostpython3,kivy,kivymd,cython,sdl2_ttf,pillow,liblzma,pyjnius,pycryptodome
 # presplash.filename = %(source.dir)s/images/presplash.png
 # icon.filename = %(source.dir)s/images/favicon.png
